@@ -1,0 +1,67 @@
+Running: E:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o E:/Xilinx/workspace/CPU_20/mips_tb_isim_beh.exe -prj E:/Xilinx/workspace/CPU_20/mips_tb_beh.prj work.mips_tb work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/Pause.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/IM.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/Forward.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/NPC.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/Mux3.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/Mux2.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/Mux1.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/MEM_WB.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/IF_ID.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/IFU.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/ID_EX.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/GRF.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/EX_MEM.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/EXT.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/DM.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/Controller.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/Conflict_Manager.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/CMP.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/ALU.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/mips.v" into library work
+Analyzing Verilog file "E:/Xilinx/workspace/CPU_20/mips_tb.v" into library work
+Analyzing Verilog file "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "E:/Xilinx/workspace/CPU_20/mips.v" Line 134: Port A5 is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/Xilinx/workspace/CPU_20/mips.v" Line 142: Port A5 is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/Xilinx/workspace/CPU_20/mips.v" Line 150: Port A3 is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/Xilinx/workspace/CPU_20/mips.v" Line 209: Port movz is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/Xilinx/workspace/CPU_20/mips.v" Line 245: Port movz is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/Xilinx/workspace/CPU_20/mips.v" Line 279: Port movz is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/Xilinx/workspace/CPU_20/mips.v" Line 304: Port ALUSrc is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 158516 KB
+Fuse CPU Usage: 327 ms
+Compiling module Forward
+Compiling module Pause
+Compiling module Conflict_Manager
+Compiling module Mux3
+Compiling module Mux2
+Compiling module IM
+Compiling module IFU
+Compiling module IF_ID
+Compiling module GRF
+Compiling module EXT
+Compiling module CMP
+Compiling module NPC
+Compiling module Controller
+Compiling module ID_EX
+Compiling module ALU
+Compiling module EX_MEM
+Compiling module DM
+Compiling module MEM_WB
+Compiling module Mux1
+Compiling module Mux2(width=5)
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 16 sub-compilation(s) to finish...
+Compiled 23 Verilog Units
+Built simulation executable E:/Xilinx/workspace/CPU_20/mips_tb_isim_beh.exe
+Fuse Memory Usage: 168508 KB
+Fuse CPU Usage: 578 ms

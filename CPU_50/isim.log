@@ -1,0 +1,86 @@
+ISim log file
+Running: E:\Xilinx\workspace\CPU_50\mips_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Xilinx/workspace/CPU_50/mips_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x8ef4fb42)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 3000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+$ 5 <= 0000aabb
+$ 6 <= 00000001
+$ 7 <= ccdd0000
+$ 1 <= ffff0000
+$ 1 <= ffff0000
+$ 4 <= ffff0000
+$26 <= 00003170
+$ 9 <= 0000aabc
+*00000000 <= 0000aabc
+$ 9 <= 0000aaba
+*00000004 <= 0000aaba
+$ 9 <= 00000001
+*00000008 <= 00000001
+$ 9 <= 0000aabb
+*0000000c <= 0000aabb
+$ 9 <= ccddaabb
+*00000010 <= ccddaabb
+$ 9 <= ffff5544
+*00000014 <= ffff5544
+$ 9 <= ccdd0001
+*00000018 <= ccdd0001
+$ 9 <= 0000aaba
+*0000001c <= 0000aaba
+$ 9 <= 9ba00000
+*00000020 <= 9ba00000
+$ 9 <= 00000000
+*00000024 <= 00000000
+$ 9 <= 00000001
+*00000028 <= 00000001
+$16 <= ffffffff
+$17 <= ccdd0000
+*0000002c <= ffffffff
+*00000030 <= ccdd0000
+$ 9 <= 99ba0000
+*00000034 <= 99ba0000
+$ 9 <= 00333740
+*00000038 <= 00333740
+$ 9 <= 666e8000
+*0000003c <= 666e8000
+$18 <= 00000000
+$19 <= ccdd0000
+*00000040 <= 00000000
+*00000044 <= ccdd0000
+$ 9 <= fe66e800
+*00000048 <= fe66e800
+$ 9 <= e66e8000
+*0000004c <= e66e8000
+$ 9 <= ccdd00ff
+*00000050 <= ccdd00ff
+$ 9 <= 00000001
+*00000054 <= 00000001
+$ 9 <= ccdd00ff
+*00000058 <= ccdd00ff
+$ 9 <= 000000bb
+*0000005c <= 000000bb
+$20 <= ffffe45f
+$21 <= ffffb353
+*00000060 <= ffffe45f
+*00000064 <= ffffb353
+$ 9 <= 0000000b
+*00000068 <= 0000000b
+$ 9 <= 00000011
+*0000006c <= 00000011
+$ 9 <= 00000000
+*00000070 <= 00000000
+$ 9 <= abcd0000
+*00000074 <= abcd0000
+*00000070 <= abcd0000
+$ 9 <= ffffffcd
+*0000007a <= ffcd
+*0000007c <= ffffffcd
+*00000078 <= cd
+$ 9 <= 000000cd
+*00000080 <= 000000cd
+$31 <= 0000314c
+$ 9 <= 00003158
